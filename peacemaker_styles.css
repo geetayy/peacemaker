@@ -28,7 +28,7 @@ h1{
     font-size: 5rem;
     text-align: center;
     color: white;
-    /* font-family:'brandon'; */
+    font-family:'8-bit-bold';
     font-weight: 1000;
 }
 
@@ -41,6 +41,8 @@ h3{
 .container{
     padding: 15px;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
     width: 750px;
     border: 1rem solid white;
 }
@@ -54,23 +56,19 @@ p {
     text-align: center;
 }
 
-.ques{
-    /* font-family: 'brandon'; */
-    margin-right: auto;
-    margin-left: auto;
-    width: 750px;
-    font-size: 2rem;
-    text-align: left;
-}
 
 .playerBox{
     width: 800px;
     height: 450px;
-    /* padding: 10px; */
     align-content: center;
     margin:  auto;
     border: 1rem solid white ;
-    border-radius:50px;
+    /* border-radius:50px; */
     overflow: hidden;
     z-index: 1;
+}
+
+.end{
+    text-align: end;
+    font-family: '8-bit-bold';
 }
